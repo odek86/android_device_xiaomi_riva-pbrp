@@ -19,8 +19,8 @@ env:
   GH_BOT_TOKEN: ${{ secrets.GH_BOT_TOKEN }}
   GitHubMail: ${{ secrets.GitHubMail }}
   GitHubName: ${{ secrets.GitHubName }}
-  SFPassword: ${{ secrets.SFPassword }}
-  SFUserName: ${{ secrets.SFUserName }}
+  #SFPassword: ${{ secrets.SFPassword }}
+  #SFUserName: ${{ secrets.SFUserName }}
   TARGET: "pbrp"
   #EXTRA_CMD: "Extra Commands Here"
 
