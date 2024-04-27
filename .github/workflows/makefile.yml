@@ -27,7 +27,7 @@ on:
       COMMON_TREE_URL:
         description: 'COMMON_TREE_URL (if no common tree, leave blank)'
         required: false
-        default: https://android.googlesource.com/device/common'
+        default: 'https://android.googlesource.com/device/common'
       COMMON_PATH:
         description: 'COMMON_PATH (if no common tree, leave blank)'
         required: false
