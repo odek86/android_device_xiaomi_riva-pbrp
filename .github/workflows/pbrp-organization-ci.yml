@@ -44,7 +44,7 @@ jobs:
          with:
            repository: PitchBlackRecoveryProject/Cleaner
            ref: main
-           token: ${{ secrets.GH_BOT_TOKEN }}
+           #token: ${{ secrets.GH_BOT_TOKEN }}
            path: .github/actions/Cleaner
        - name: Cleaning
          uses: ./.github/actions/Cleaner
@@ -54,7 +54,7 @@ jobs:
          with:
            repository: erwinabs/Compiler
            ref: production
-           token: ${{ secrets.GH_BOT_TOKEN }}
+           #token: ${{ secrets.GH_BOT_TOKEN }}
            path: .github/actions/Compiler
        - name: Recovery Compilation
          uses: ./.github/actions/Compiler
