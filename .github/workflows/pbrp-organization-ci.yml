@@ -42,8 +42,8 @@ jobs:
        - name: Checkout Cleaning Up Runner Repo
          uses: actions/checkout@v2
          with:
-           repository: PitchBlackRecoveryProject/Cleaner
-           ref: main
+           #repository: PitchBlackRecoveryProject/Cleaner
+           #ref: main
            #token: ${{ secrets.GH_BOT_TOKEN }}
            path: .github/actions/Cleaner
        - name: Cleaning
@@ -52,8 +52,8 @@ jobs:
        - name: Checkout Recovery Compiler Repo
          uses: actions/checkout@v2
          with:
-           repository: erwinabs/Compiler
-           ref: production
+           #repository: erwinabs/Compiler
+           #ref: production
            #token: ${{ secrets.GH_BOT_TOKEN }}
            path: .github/actions/Compiler
        - name: Recovery Compilation
