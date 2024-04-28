@@ -6,16 +6,17 @@ on:
       MANIFEST_URL:
         description: 'MANIFEST_URL (if want to use SSH keys, use git@github.com:XXXXX)'
         required: true
-        default: https://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni
-        #default: 'https://github.com/PitchBlackRecoveryProject/manifest_pb.git -b android-8.1'
+        #default: https://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni
+        default: 'https://github.com/PitchBlackRecoveryProject/manifest_pb.git -b android-8.1'
       MANIFEST_BRANCH:
         description: 'MANIFEST_BRANCH'
         required: true
-        default: 'twrp-8.1'
+        default: 'android-8.1'
       DEVICE_TREE_URL:
         description: 'DEVICE_TREE_URL'
         required: true
-        default: 'https://github.com/odek86/android_device_xiaomi_riva-pbrp -b android-9.0'
+        #default: 'https://github.com/odek86/android_device_xiaomi_riva-pbrp -b android-9.0'
+        default: https://github.com/PitchBlackRecoveryProject/android_device_xiaomi_riva-pbrp
       DEVICE_TREE_BRANCH:
         description: 'DEVICE_TREE_BRANCH'
         required: true
@@ -27,11 +28,11 @@ on:
       COMMON_TREE_URL:
         description: 'COMMON_TREE_URL (if no common tree, leave blank)'
         required: false
-        default: 'https://android.googlesource.com/device/common'
+        #default: 'https://android.googlesource.com/device/common'
       COMMON_PATH:
         description: 'COMMON_PATH (if no common tree, leave blank)'
         required: false
-        default: 'refs/heads/oreo-release'
+        #default: 'refs/heads/oreo-release'
       DEVICE_NAME:
         description: 'DEVICE_NAME'
         required: true
