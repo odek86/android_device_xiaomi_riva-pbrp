@@ -7,11 +7,11 @@ on:
         description: 'MANIFEST_URL (if want to use SSH keys, use git@github.com:XXXXX)'
         required: true
         #default: https://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni
-        default: 'https://github.com/PitchBlackRecoveryProject/manifest_pb.git -b android-8.1'
+        default: 'https://github.com/PitchBlackRecoveryProject/manifest_pb.git -b android-9.0'
       MANIFEST_BRANCH:
         description: 'MANIFEST_BRANCH'
         required: true
-        default: 'android-8.1'
+        default: 'android-9.0'
       DEVICE_TREE_URL:
         description: 'DEVICE_TREE_URL'
         required: true
