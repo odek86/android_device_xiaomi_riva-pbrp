@@ -11,7 +11,7 @@ on:
       MANIFEST_BRANCH:
         description: 'MANIFEST_BRANCH'
         required: true
-        default: 'android-8.1'
+        default: 'android-7.1'
       DEVICE_TREE_URL:
         description: 'DEVICE_TREE_URL'
         required: true
@@ -55,6 +55,7 @@ jobs:
     steps:
     - name: Display Run Parameters
       run: |
+        echo "Run ID: ${{ github.run_id }}"
         echo "::group::User Environment Variables"
         echo "Manifest URL: ${{ github.event.inputs.MANIFEST_URL }}"
         echo "Manifest Branch: ${{ github.event.inputs.MANIFEST_BRANCH }}"
