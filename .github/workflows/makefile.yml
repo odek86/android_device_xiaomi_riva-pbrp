@@ -15,12 +15,12 @@ on:
       DEVICE_TREE_URL:
         description: 'DEVICE_TREE_URL'
         required: true
-        default: 'https://github.com/odek86/android_device_xiaomi_riva'
+        default: 'https://github.com/odek86/android_device_xiaomi_riva-pbrp'
         #default: https://github.com/PitchBlackRecoveryProject/android_device_xiaomi_riva-pbrp
       DEVICE_TREE_BRANCH:
         description: 'DEVICE_TREE_BRANCH'
         required: true
-        default: 'pbrp'
+        default: 'android-9.0'
       DEVICE_PATH:
         description: 'DEVICE_PATH'
         required: true
