@@ -6,21 +6,21 @@ on:
       MANIFEST_URL:
         description: 'MANIFEST_URL (if want to use SSH keys, use git@github.com:XXXXX)'
         required: true
-        default: https://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni
-        #default: 'https://github.com/PitchBlackRecoveryProject/manifest_pb'
+        #default: https://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni
+        default: 'https://github.com/PitchBlackRecoveryProject/manifest_pb'
       MANIFEST_BRANCH:
         description: 'MANIFEST_BRANCH'
         required: true
-        default: 'android-7.1'
+        default: 'android-9.0'
       DEVICE_TREE_URL:
         description: 'DEVICE_TREE_URL'
         required: true
-        default: 'https://github.com/odek86/android_device_xiaomi_riva -b android-7.1'
+        default: 'https://github.com/odek86/android_device_xiaomi_riva'
         #default: https://github.com/PitchBlackRecoveryProject/android_device_xiaomi_riva-pbrp
       DEVICE_TREE_BRANCH:
         description: 'DEVICE_TREE_BRANCH'
         required: true
-        default: 'android-7.1'
+        default: 'pbrp'
       DEVICE_PATH:
         description: 'DEVICE_PATH'
         required: true
